@@ -12,17 +12,19 @@ const LandingPage = () => {
                     <source  src={ValorantVid} type="video/mp4" />
                 </video>
 
-                <div className="lp-text" > 
-                    <p>A 5v5 character-based tactical shooter</p>                          
-                </div>
-                
-                <div>
-                    <img src={ValorantLogo} alt="" /> 
-                </div>
+                <div className="lp-items" > 
+                    <p>A 5v5 character-based tactical shooter</p>    
 
-                
+                    <img src={ValorantLogo} alt="" />                      
+                </div>
                       
             </div>
+            <div className="cta" >
+                <a href=""><button>PLAY FREE</button></a> 
+            </div>
+
+            <div className="vl-1" ></div>
+             
             
         </div>
     )

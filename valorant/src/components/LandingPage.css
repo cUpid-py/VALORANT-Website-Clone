@@ -1,16 +1,17 @@
 .lp{
     display: flex;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 
-.lp-text p{
+p{
     color: white;
-    display: inline-block;
-    justify-content:center;
-    align-items: center;
-    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-weight: 500px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 8px black;
+    
 }
 
 
@@ -20,4 +21,38 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+button{
+    color: white;
+    font-size: .69rem;
+    font-weight: 800;
+    background-color: #FF4655;
+    padding: 20px 90px 20px 90px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+
+}
+
+button:hover{
+    background-color: #001624;
+    cursor: pointer;
+
+}
+
+
+
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vl-1{
+    border-right: 10px solid white;
+    height: 100px;
+    opacity: 40%;
 }
