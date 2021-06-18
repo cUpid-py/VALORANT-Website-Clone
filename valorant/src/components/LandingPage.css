@@ -23,7 +23,7 @@ p{
     z-index: -1;
 }
 
-button{
+.cta button{
     color: white;
     font-size: .69rem;
     font-weight: 800;
@@ -32,6 +32,8 @@ button{
     border: none;
     border-radius: 3px;
     margin-top: 50px;
+    outline:solid .7px white ;
+    outline-offset: 10px;
     /* margin-left: 200px; */
 
 }
