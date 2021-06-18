@@ -1,0 +1,60 @@
+.navbar-bg{
+    background-color: black;
+    display: flex;
+}
+
+.riotbar-logo {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-left: 32px;
+    width: 75px;
+}
+
+.navbar-logo{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.vl{
+    border-left: .2px solid white;
+    height: 35px;
+    float: right;
+    opacity: 40%;
+}
+
+.navbar-items a li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    justify-content: space-around;
+    font-size: .69rem;
+    font-weight: 800;
+    line-height: 74px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    /* margin: 0 5px 0 40px; */
+    overflow: hidden;
+    /* padding-top: 2px; */
+    letter-spacing: 0.1em;
+}
+.navbar-items a li:hover {
+    border-bottom:.7px solid #FF4655;
+}
+
+
+.navbar-cta button{
+    color: white;
+    font-size: .69rem;
+    font-weight: 800;
+    background-color: #FF4655;
+    padding: 14px 30px 14px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 200px;
+
+}
+

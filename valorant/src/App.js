@@ -1,10 +1,23 @@
-
 import './App.css';
+import LandingPage from './components/LandingPage';
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <header>
+        <Navbar />
+      </header>
+
+      <body>
+        <LandingPage />
+        
+      </body>
+
+      <footer>
+
+      </footer>
+      
     </div>
   );
 }
