@@ -1,6 +1,8 @@
 import './App.css';
 import LandingPage from './components/LandingPage';
 import Navbar from "./components/Navbar"
+import News from "./components/News"
+import Trailer from "./components/Trailer"
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
 
       <body>
         <LandingPage />
+        <News />
+        <Trailer />
         
       </body>
 

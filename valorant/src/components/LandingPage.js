@@ -8,7 +8,7 @@ const LandingPage = () => {
         <div>
             <div className="lp" >
 
-                <video  id="myVideo" autoPlay loop muted>
+                <video  id="myVideo" autoPlay loop muted >
                     <source  src={ValorantVid} type="video/mp4" />
                 </video>
 
@@ -24,7 +24,9 @@ const LandingPage = () => {
             </div>
 
             <div className="vl-1" ></div>
-             
+
+
+                
             
         </div>
     )
