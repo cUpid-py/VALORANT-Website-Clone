@@ -1,0 +1,39 @@
+.trailer-main {
+    padding: 0px;
+    margin: 0px;
+    background-color: #e4e2da;  
+}
+
+.trailer-main h1{
+    font-size: 5rem;
+    font: "Alternate Gothic2 BT";
+}
+
+.trailer-main h5{
+    /* font-family: "DIN Next LT Pro", Arial, Helvetica, sans-serif ; */
+    text-shadow: none;
+    color: rgb(143, 143, 143);
+    line-height: 2;
+    font-size: .85rem;
+
+}
+
+.t1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.t1-text{
+    margin-left: 200px;
+    margin-right: 100px;
+    
+}
+
+.t1-img{
+    margin-top: 50px;
+    /* margin-left: 300px; */
+}
+

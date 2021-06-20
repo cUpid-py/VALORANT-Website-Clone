@@ -14,7 +14,6 @@ p{
     
 }
 
-
 #myVideo {
     position: absolute;
     width: 100%;
@@ -58,3 +57,5 @@ button:hover{
     height: 100px;
     opacity: 40%;
 }
+
+
