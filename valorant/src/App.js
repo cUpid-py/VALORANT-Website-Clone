@@ -3,6 +3,7 @@ import LandingPage from './components/LandingPage';
 import Navbar from "./components/Navbar"
 import News from "./components/News"
 import Trailer from "./components/Trailer"
+import Agents from "./components/Agents"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <LandingPage />
         <News />
         <Trailer />
+        <Agents />
         
       </body>
 

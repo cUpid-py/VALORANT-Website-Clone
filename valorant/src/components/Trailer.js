@@ -18,6 +18,8 @@ const Trailer = () => {
                     Take <br /> on foes across Competitive and <br /> Unranked modes as <br /> well as Deathmatch
                     and Spike Rush.</h5>
 
+                    <h5><span>Watch the gameplay trailer</span></h5>
+
                 </div>
                 <div className="t1-img" >  
                     <img src={trailer} alt="trailer" width="657" height="369" />

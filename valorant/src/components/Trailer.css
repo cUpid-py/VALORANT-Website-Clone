@@ -1,25 +1,32 @@
+
 .trailer-main {
-    padding: 0px;
-    margin: 0px;
     background-color: #e4e2da;  
+    padding-bottom: 100px;
+
 }
 
 .trailer-main h1{
+    letter-spacing: -.65rem;
+    display: flex;
     font-size: 5rem;
-    font: "Alternate Gothic2 BT";
+    font-family:"DIN Next LT Pro Bold", Arial, Helvetica, sans-serif ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-right: 400px;
 }
 
 .trailer-main h5{
     /* font-family: "DIN Next LT Pro", Arial, Helvetica, sans-serif ; */
     text-shadow: none;
-    color: rgb(143, 143, 143);
+    color: rgb(167, 167, 167);
     line-height: 2;
     font-size: .85rem;
 
 }
 
 .t1{
-    margin-top: 200px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +44,12 @@
     /* margin-left: 300px; */
 }
 
+.t1-text h5 span{
+    color: #FF4655;
+    margin-left: -7px;
+}
+
+.t1-text h5 span:hover{
+    color: #000000;
+    /* margin-left: -7px; */
+}

@@ -23,10 +23,7 @@ const LandingPage = () => {
                 <a href=""><button>PLAY FREE</button></a> 
             </div>
 
-            <div className="vl-1" ></div>
-
-
-                
+            <div className="vl-1" ></div>              
             
         </div>
     )
