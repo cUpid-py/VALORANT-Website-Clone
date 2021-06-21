@@ -1,4 +1,4 @@
-.n-master *{
+.n-master{
     background-color: #e4e2da;  
 }
 
@@ -28,15 +28,16 @@ h3{
     justify-content: space-between;
     margin: 10px 120px 10px 120px;
     object-fit: cover;
+    padding-bottom: 100px;
  
 }
 
 .n-main p{
-    font-family:"Tungsten-Bold,arial,georgia,sans-serif" ;
+    font-family:"DIN Next LT Pro Bold", Arial, Helvetica, sans-serif ;
     color: #FF4655;
     font-size: 4rem;
     margin-top: 200px;
-    padding: 0px;
+    padding-top: 0px;
     font-weight: 900;
     text-shadow: none;
     margin-left: 100px;
@@ -60,3 +61,4 @@ h5 span{
     font-weight: bolder;
     margin-left: 40px;
 }
+

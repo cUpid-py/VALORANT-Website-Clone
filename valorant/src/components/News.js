@@ -38,8 +38,14 @@ const News = () => {
                 
             </div>
             
+            
         </div>
+
+        
     )
 }
 
 export default News
+
+
+
