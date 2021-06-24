@@ -1,64 +1,89 @@
 .agents-sec {
-    background-color: #FF4655;
+  background-color: #ff4655;
 }
 
-.agents-sec{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
+.agents-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
 }
 
-
-.agents-text{
-    margin-right: 200px;
-    display: flexbox;
-    justify-content: left;
+.agents-text {
+  margin-right: 200px;
+  display: flexbox;
+  justify-content: left;
 }
 
-
-
-.agents-text h3{
-    color: white;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 30px;
+.agents-text h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 30px;
 }
 
-.agents-text .head{
-    color: white;
-    font-size: 6rem;
-    font-weight: 600;
-    letter-spacing: -.7rem;
-    margin-bottom: 50px;
+.agents-text .head {
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+  letter-spacing: -0.7rem;
+  margin-bottom: 50px;
 }
 
-.agents-text .head-p{
-    text-shadow: none;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: .9rem;
-    line-height: 2;
-    color: white;
+.agents-text .head-p {
+  text-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+  line-height: 2;
+  color: white;
 }
 
-.agents-text  .cta-2 button{
-    color: black;
-    font-size: .69rem;
-    font-weight: 800;
-    background-color: #ececec;
-    padding: 20px 90px 20px 90px;
-    border: none;
-    border-radius: 3px;
-    margin-top: 50px;
-    outline:solid .7px white ;
-    outline-offset: 6px;
-
+.cta-2 button {
+  color: black;
+  font-size: 0.69rem;
+  font-weight: 800;
+  background-color: #ececec;
+  padding: 20px 90px 20px 90px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 50px;
+  position: relative;
 }
 
-.agents-text  .cta-2  button:hover{
-    background-color: #001624;
-    cursor: pointer;
-    color: white;
+.cta-2 button::before,
+.cta-2 button::after {
+  content: "";
+  width: 103%;
+  height: 53%;
+  border: 1px solid white;
+  background-color: transparent;
+  position: absolute;
+  border-color: #b6b5b0;
+  opacity: 70%;
+}
 
+.cta-2 button::before {
+  border-bottom: none;
+  top: -8px;
+  right: -5px;
+}
+
+.cta-2 button::after {
+  border-top: none;
+  top: 32px;
+  right: -5px;
+}
+
+.cta-2 button a {
+  text-decoration: none;
+  color: black;
+}
+
+.cta-2 button:hover a {
+  color: white;
+}
+.cta-2 button:hover {
+  background-color: #001624;
+  cursor: pointer;
 }
