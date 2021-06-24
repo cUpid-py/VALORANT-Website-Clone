@@ -50,7 +50,7 @@
 .cta button::before,
 .cta button::after {
   content: "";
-  width: 106%;
+  width: 104%;
   height: 53%;
   border: 1px solid white;
   background-color: transparent;
@@ -61,13 +61,13 @@
 
 .cta button::before {
   top: -7px;
-  right: -8px;
+  right: -6px;
   border-bottom: none;
 }
 
 .cta button::after {
   top: 33px;
-  right: -8px;
+  right: -6px;
   border-top: none;
 }
 
