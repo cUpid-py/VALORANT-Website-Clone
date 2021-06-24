@@ -1,0 +1,70 @@
+.maps-main{
+    /* padding-left: 50px; */
+    padding-bottom: 300px;
+    background-color:  #e4e2da;
+    background-image: url(../assets/maps.png);
+    display: flexbox;
+    background-size: cover;
+   
+    /* justify-content: left; */
+
+    /* position: relative; */
+}
+
+.map-img{
+    /* width: 100%; */
+    /* object-fit: cover;
+    position: absolute; */
+    /* margin-left: 100px; */
+
+}
+
+
+.maps-text{
+    padding-top: 140px;
+    padding-left: 100px;
+
+
+}
+
+.maps-main h1{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    padding-bottom: 50px;
+    letter-spacing: -10px;
+}
+.maps-main p{
+    padding-top: 40px;
+    color: rgb(58, 58, 58);;
+    text-shadow: none;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+hr{
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+.maps-main .cta-3 button{
+    color: rgb(255, 255, 255);
+    font-size: .69rem;
+    font-weight: 800;
+    background-color:#FF4655;
+    padding: 20px 90px 20px 90px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 70px;
+    margin-left: 100px;
+    outline:solid .7px rgb(129, 129, 129) ;
+    outline-offset: 6px;
+
+
+}
+
+.maps-main  .cta-3  button:hover{
+    background-color: #001624;
+    cursor: pointer;
+    color: white;
+
+}

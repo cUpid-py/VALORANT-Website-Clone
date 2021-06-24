@@ -1,6 +1,8 @@
 .navbar-bg{
-    background-color: black;
+    background-color: #001624;
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .riotbar-logo {

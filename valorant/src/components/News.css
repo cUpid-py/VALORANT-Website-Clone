@@ -8,13 +8,13 @@
 
 .n-text a{
     float: right;
-    padding-top: 220px;
+    padding-top: 150px;
     text-decoration: none;
     color: #FF4655;
     font-family: "DIN Next W1G" ;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-left: 500px;
+    margin-left: 300px;
 }
 
 
@@ -32,11 +32,11 @@ h3{
  
 }
 
-.n-main p{
+.n-main h1{
     font-family:"DIN Next LT Pro Bold", Arial, Helvetica, sans-serif ;
     color: #FF4655;
-    font-size: 4rem;
-    margin-top: 200px;
+    font-size: 4.5rem;
+    margin-top: 100px;
     padding-top: 0px;
     font-weight: 900;
     text-shadow: none;
