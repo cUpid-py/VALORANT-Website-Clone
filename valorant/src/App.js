@@ -1,11 +1,11 @@
-import './App.css';
-import LandingPage from './components/LandingPage';
-import Navbar from "./components/Navbar"
-import News from "./components/News"
-import Trailer from "./components/Trailer"
-import Agents from "./components/Agents"
-import Maps from "./components/Maps"
-import Footer from "./components/Footer"
+import "./App.css";
+import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar";
+import News from "./components/News";
+import Trailer from "./components/Trailer";
+import Agents from "./components/Agents";
+import Maps from "./components/Maps";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,13 +21,9 @@ function App() {
         <Agents />
         <Maps />
         <Footer />
-        
       </body>
 
-      <footer>
-
-      </footer>
-      
+      <footer></footer>
     </div>
   );
 }
@@ -37,7 +33,7 @@ export default App;
 // Questions
 
 // 1. Why is it that the video no longer covers the full screen?
-        // Tried adjusting the padding of the navbar bg and seemed to work out
+// Tried adjusting the padding of the navbar bg and seemed to work out
 
 // 2. Why is it that there are violet dashes in between the navbar items?
 // 3. Why is it that when i hover over the nav-items the rise up and down?
