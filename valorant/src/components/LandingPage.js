@@ -5,7 +5,7 @@ import ValorantLogo from "../assets/Valorant logo.png"
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className="lp-master" >
             <div className="lp" >
 
                 <video  id="myVideo" autoPlay loop muted >

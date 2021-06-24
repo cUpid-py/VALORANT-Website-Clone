@@ -39,6 +39,7 @@
     margin-bottom: 30px;
     font-size: .9rem;
     line-height: 2;
+    color: white;
 }
 
 .agents-text  .cta-2 button{
@@ -51,8 +52,7 @@
     border-radius: 3px;
     margin-top: 50px;
     outline:solid .7px white ;
-    outline-offset: 10px;
-    margin-left: 1rem;
+    outline-offset: 6px;
 
 }
 

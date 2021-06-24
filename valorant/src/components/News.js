@@ -10,7 +10,7 @@ const News = () => {
                 <div className="n-main" >
 
                     <div className="n-text" >
-                        <p> LATEST NEWS</p>   
+                        <h1>LATEST NEWS </h1>   
                         <a href="#"> Go to the next page</a>                   
                     </div>
                     
