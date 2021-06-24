@@ -9,7 +9,7 @@
 #myVideo {
   position: absolute;
   width: 100vw;
-  height: calc(100vh - var(--navbar-height));
+  height: calc(95vh - var(--navbar-height));
   object-fit: cover;
 }
 
