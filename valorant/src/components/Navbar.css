@@ -68,15 +68,15 @@
   font-size: 0.69rem;
   font-weight: 800;
   line-height: 74px;
-  /* margin-top: 0px;
+  margin-top: 0px;
   margin-right: 20px;
   margin-left: 25px;
-  margin-bottom: 0px; */
-/* margin: 0 5px 0 40px; */
-/* overflow: hidden; */
-/* padding-top: 2px; */
-/* letter-spacing: 0.1em; */
-/* } */
+  margin-bottom: 0px;
+  margin: 0 5px 0 40px;
+  overflow: hidden;
+  padding-top: 2px;
+  letter-spacing: 0.1em;
+  } */
 
 .navbar-cta {
   display: flex;
