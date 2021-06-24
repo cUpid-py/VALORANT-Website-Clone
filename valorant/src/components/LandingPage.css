@@ -11,7 +11,7 @@
   width: 100vw;
   height: calc(100vh - var(--navbar-height));
   object-fit: cover;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 .lp p {

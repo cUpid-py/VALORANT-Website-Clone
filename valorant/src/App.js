@@ -5,6 +5,7 @@ import News from "./components/News"
 import Trailer from "./components/Trailer"
 import Agents from "./components/Agents"
 import Maps from "./components/Maps"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Trailer />
         <Agents />
         <Maps />
+        <Footer />
         
       </body>
 
