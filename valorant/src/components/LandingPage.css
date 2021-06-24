@@ -11,7 +11,17 @@
   width: 100vw;
   height: calc(100vh - var(--navbar-height));
   object-fit: cover;
-  z-index: -1;
+}
+
+.lp-items {
+  z-index: 0;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
 }
 
 .lp p {
@@ -43,14 +53,9 @@ button:hover {
   cursor: pointer;
 }
 
-.cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* don't know what this does */
 .vl-1 {
-  border-right: 10px solid white;
+  border-right: 10px solid orange;
   height: 100px;
   opacity: 40%;
 }
