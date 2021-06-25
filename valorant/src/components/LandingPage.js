@@ -7,8 +7,7 @@ const LandingPage = () => {
   return (
     <div className="lp-master">
       <div className="lp">
-        <video id="myVideo" muted>
-          {/* add "autoplay loop" when done*/}
+        <video id="myVideo" autoPlay loop muted>
           <source src={ValorantVid} type="video/mp4" />
         </video>
 
