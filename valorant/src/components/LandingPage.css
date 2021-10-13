@@ -1,5 +1,6 @@
-/* .lp-master{
-} */
+.lp-master {
+  margin-bottom: 20.25rem;
+}
 
 .lp {
   display: flex;
@@ -9,9 +10,19 @@
 #myVideo {
   position: absolute;
   width: 100vw;
-  height: calc(100vh - var(--navbar-height));
+  height: calc(95vh - var(--navbar-height));
   object-fit: cover;
-  z-index: -1;
+}
+
+.lp-items {
+  z-index: 0;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
 }
 
 .lp p {
@@ -33,9 +44,31 @@
   border: none;
   border-radius: 3px;
   margin-top: 50px;
-  outline: solid 0.7px white;
-  outline-offset: 10px;
-  /* margin-left: 200px; */
+  position: relative;
+}
+
+.cta button::before,
+.cta button::after {
+  content: "";
+  width: 104%;
+  height: 53%;
+  border: 1px solid white;
+  background-color: transparent;
+  position: absolute;
+  border-color: #b6b5b0;
+  opacity: 70%;
+}
+
+.cta button::before {
+  top: -7px;
+  right: -6px;
+  border-bottom: none;
+}
+
+.cta button::after {
+  top: 33px;
+  right: -6px;
+  border-top: none;
 }
 
 button:hover {
@@ -43,14 +76,9 @@ button:hover {
   cursor: pointer;
 }
 
-.cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* don't know what this does */
 .vl-1 {
-  border-right: 10px solid white;
+  border-right: 10px solid orange;
   height: 100px;
   opacity: 40%;
 }
